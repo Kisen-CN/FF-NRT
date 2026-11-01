@@ -1,0 +1,19 @@
+# Local work and credentials
+.env
+.env.*
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+tmp/
+
+# Research tensors, checkpoints, and scene source assets are outside this package.
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.mat
+*.blend
+*.blend1
+*.blend2
